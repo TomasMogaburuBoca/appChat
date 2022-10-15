@@ -1,0 +1,7 @@
+[
+    {"type": "Longboard", "id": 1, "size": 8.5, "price": 1200, "thumbnail": ""},
+    {"type": "Longboard", "id": 2, "size": 9.0, "price": 1250, "thumbnail": ""},
+    {"type": "Longboard", "id": 3, "size": 8.2, "price": 1300, "thumbnail": ""},
+    {"type": "Longboard", "id": 4, "size": 9.1, "price": 1400, "thumbnail": ""},
+    {"type": "Longboard", "id": 5, "size": 10.5, "price": 1500, "thumbnail": ""}
+]

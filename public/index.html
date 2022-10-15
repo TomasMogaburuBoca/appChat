@@ -10,18 +10,22 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container-fluid mt-3">
-        <h1>Mi App Chat</h1>
-        <hr>
 
-        <div id="messages"></div>
+    <h1>Chat</h1>
+    <form onsubmit="addProducts(this)">
+        <input type="text" id="roductName" placeholder="Product name">
+        <input type="number" id="price" placeholder="Price">
+        <input type="submit" value="Send">
+    </form>
+    <div id="products"></div>
 
-        <form class="form-inline" onsubmit="return addMessage()" autocomplete="off">
-            <input type="text" id="username" class="form-control my-2 mr-2" placeholder="Product">
-            <input type="number" id="texto" class="form-control my-2 mr-2" placeholder="Price">
-            <input class="btn btn-primary my-2" type="submit" value="Send!">
-        </form>
-    </div>
+    <br><br><br><br>
+    <form onsubmit="addMessages(this)">
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="texto" placeholder="Comment">
+        <input type="submit" value="Send">
+    </form>
+    <div id="messages"></div>
 
     <script src="js/main.js"></script>
 </body>
